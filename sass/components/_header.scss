@@ -1,9 +1,6 @@
 .header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  border-bottom: 1px solid var(--border-color-header);
+  background-color: grey;
+  padding: 18px 0;
 }
 
 .header__container {
@@ -16,3 +13,21 @@
   display: flex;
   align-items: center;
 }
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-left: 103px;
+}
+
+.language__item {
+  display: inline-block;
+  margin-left: 8px;
+  text-decoration: none;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 1.38;
+  color: var(--white);
+}
+
