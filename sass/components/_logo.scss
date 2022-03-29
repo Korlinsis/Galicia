@@ -1,7 +1,28 @@
 .logo {
-  width: 124px;
   display: flex;
+  // width: 124px;
   text-decoration: none;
+}
+
+.logo--footer {
+  margin-bottom: 36px;
+}
+
+.logo__icon {
+  display: block;
+  fill: var(--accent);
+  width: 25px;
+  height: 45px;
+
+  &--footer {
+    width: 32px;
+    height: 61px;
+  }
+}
+
+.logo__letters {
+  display: block;
+  margin-left: 8px;
   font-family: 'Avenir', sans-serif;
   font-weight: 450;
   font-size: 10px;
@@ -9,20 +30,20 @@
   letter-spacing: 0.03em;
   color: var(--accent);
 
+  &--footer {
+    font-size: 12px;
+    line-height: 1.04;
+  }
+
   &--white {
     font-weight: 750;
     font-size: 16px;
     line-height: 1;
     color: var(--white);
     text-transform: uppercase;
-  }  
-}
 
-.logo__icon {
-  display: block;
-}
-
-.logo__letters {
-  display: block;
-  margin-left: 8px;
+    &--footer {
+      font-size: 24px;
+    }
+  } 
 }

@@ -1,0 +1,69 @@
+.details__header {
+    margin-bottom: 24px;
+    padding: 44px 34px;
+    border-radius: 20px;
+    background-color: var(--grey);
+    background-image: 
+      url("../images/bullet_mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.details__title {
+    margin-bottom: 64px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 1.33;
+    color: var(--white);
+
+    &--bold {
+        font-weight: 750;
+        color: var(--accent);
+    }
+}
+
+.details__item {
+    padding: 22px;
+    background-color: var(--grey);
+    border-radius: 20px;
+}
+
+.details__item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.details__name {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 1.33;
+    color: var(--black);
+
+    &--bold {
+        font-weight: 750;
+    }
+}
+
+.details__currency {
+    margin-bottom: 24px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 750;
+    font-size: 24px;
+    line-height: 1.33;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.bank__details {
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--black-text);
+}
+
+.bank__details:not(:last-child) {
+    margin-bottom: 8px;
+}

@@ -4,6 +4,20 @@
 //   align-items: center;
 // }
 
+.hero__background {
+  width: 100vw;
+  height: 806px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: 
+    url("../images/hero_mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
 .hero__title {
   margin-bottom: 16px;
   font-family: 'Avenir', sans-serif;

@@ -33,6 +33,9 @@
     letter-spacing: 0.07em;
     text-decoration: none;
     color: var(--black-text);
+    fill: var(--accent);
+
+    transition: fill var(--animation-time) var(--animation-function);
 
     display: flex;
     align-items: center;
@@ -40,8 +43,14 @@
     &--bold{
         font-weight: 700;
     }
+
+    &:hover,
+    &:focus {
+        fill: #f3bb03;    
+    }
 }
 
 .foundation__icon {
     margin-left: 16px;
+    fill: current;
 }

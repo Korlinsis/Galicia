@@ -2,15 +2,8 @@
     &--hero {
     padding: 209px 0 168px;
     max-width: 1200px;
-    // height: 730px;
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--grey);
-    background-image: 
-      url("../images/hero_mobile.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 
   &--foundation {
@@ -18,7 +11,16 @@
   }
 
   &--ukraine {
-    padding-bottom: 60px;
+    padding: 430px 0 60px;
     background-color: var(--blue);
+    position: relative;
+  }
+
+  &--ammunition {
+    padding: 84px 0;
+  }
+
+  &--details {
+    padding-bottom: 84px;
   }
 }

@@ -1,0 +1,49 @@
+.ammunition__title {
+    margin-bottom: 24px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 450;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--black);
+
+    &--bold{
+        font-weight: 750;
+    }
+}
+
+.ammunition__description {
+    margin-bottom: 64px;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--black-text);
+
+    &--bold{
+        font-weight: 700;
+    }
+}
+
+.ammunition__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ammunition__item:not(:last-child) {  
+    margin-bottom:36px;
+}
+
+.ammunition__image {
+    display: block;
+    margin-bottom:12px;
+}
+
+.ammunition__name {
+    display: inline-block;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 750;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--black);
+}
