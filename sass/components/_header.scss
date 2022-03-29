@@ -1,10 +1,18 @@
 .header {
   padding: 18px 0;
+
+  @media screen and (min-width: $desktop) {
+    padding: 28px 0;
+  }
 }
 
 .header__container {
   display: flex;
   align-items: center;
+
+  @media screen and (min-width: $desktop) {
+    justify-content: space-between;
+  }
 }
 
 .header__nav {
@@ -16,6 +24,10 @@
   display: flex;
   align-items: center;
   margin-left: 40px;
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 64px;
+  }
 }
 
 .language__icon {
@@ -66,8 +78,12 @@
   opacity: 1;
 }
 
-.language__item:last-child {
+.language__item--ukrainian {
   margin-right: 10px;
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 20px;
+  }
 }
 
 .current {
@@ -80,4 +96,8 @@
 
 .address--header {
   display: none;
+
+  @media screen and (min-width: $desktop) {
+    display: block;
+  }
 }

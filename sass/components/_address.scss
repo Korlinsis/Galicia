@@ -3,10 +3,26 @@
   font-weight: 450;
   font-size: 16px;
   line-height: 1.38;
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 64px;
+  }
+}
+
+.address__list {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .address__item:not(:last-child) {
   margin-bottom: 16px;
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
+    margin-right: 64px;
+  }
 }
 
 .address__link {

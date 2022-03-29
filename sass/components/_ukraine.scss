@@ -9,6 +9,33 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            & {
+                background-image: 
+                url("../images/flag_mobile@2x.jpg");
+            }
+        }
+
+    @media screen and (min-width: $desktop) {
+        background-image: 
+        url("../images/flag.jpg");
+        left: 50%;
+        height: 100%;
+        width: 50vw;
+        overflow: hidden;
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            & {
+                background-image: 
+                url("../images/flag@2x.jpg");
+            }
+        }
+    }
 }
 
 .ukraine__title {
@@ -18,6 +45,12 @@
     font-size: 36px;
     line-height: 1.17;
     color: var(--accent);
+
+    @media screen and (min-width: $desktop) {
+        max-width: 480px;
+        font-size: 48px;
+        line-height: 1.29;
+    }
 }
 
 .ukraine__text {
@@ -27,5 +60,9 @@
     line-height: 1.62;
     letter-spacing: 0.04em;
     color: var(--white);
+
+    @media screen and (min-width: $desktop) {
+        max-width: 480px;
+    }
 }
     

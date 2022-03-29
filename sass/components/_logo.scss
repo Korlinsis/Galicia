@@ -1,11 +1,14 @@
 .logo {
   display: flex;
-  // width: 124px;
   text-decoration: none;
 }
 
 .logo--footer {
   margin-bottom: 36px;
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
+  }
 }
 
 .logo__icon {
@@ -13,6 +16,11 @@
   fill: var(--accent);
   width: 25px;
   height: 45px;
+
+  @media screen and (min-width: $desktop) {
+    width: 32px;
+    height: 61px;
+  }
 
   &--footer {
     width: 32px;
@@ -30,6 +38,11 @@
   letter-spacing: 0.03em;
   color: var(--accent);
 
+  @media screen and (min-width: $desktop) {
+    font-size: 12px;
+    line-height: 1.04;
+  }
+
   &--footer {
     font-size: 12px;
     line-height: 1.04;
@@ -41,6 +54,10 @@
     line-height: 1;
     color: var(--white);
     text-transform: uppercase;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 24px;
+  }
 
     &--footer {
       font-size: 24px;

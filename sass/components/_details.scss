@@ -8,6 +8,34 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        & {
+        background-image: 
+        url("../images/bullet_mobile@2x.jpg");
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 20px;
+        padding: 59px 106px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: 
+        url("../images/bullet.jpg");
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            & {
+                background-image: 
+                url("../images/bullet@2x.jpg");
+            }
+        }
+    }
 }
 
 .details__title {
@@ -22,16 +50,38 @@
         font-weight: 750;
         color: var(--accent);
     }
+
+    @media screen and (min-width: $desktop) {
+        max-width: 479px;
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+}
+
+.details__list {
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .details__item {
     padding: 22px;
     background-color: var(--grey);
     border-radius: 20px;
+
+    @media screen and (min-width: $desktop) {
+        padding: 40px;
+        max-width: 380px;
+    }
 }
 
 .details__item:not(:last-child) {
     margin-bottom: 24px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+    }
 }
 
 .details__name {

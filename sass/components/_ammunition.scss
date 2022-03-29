@@ -1,4 +1,5 @@
 .ammunition__title {
+    position: relative;
     margin-bottom: 24px;
     font-family: 'Avenir', sans-serif;
     font-weight: 450;
@@ -8,6 +9,27 @@
 
     &--bold{
         font-weight: 750;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+        font-size: 36px;
+        line-height: 1.33;
+    }
+
+    &::after {
+        display: none;
+        content: "";
+        position: absolute;
+        top: 36px;
+        right: 0px;
+        background-color: var(--black);
+        width: 780px;
+        height: 1px;
+
+        @media screen and (min-width: $desktop) {
+            display: block;
+        }
     }
 }
 
@@ -22,21 +44,45 @@
     &--bold{
         font-weight: 700;
     }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 84px;
+        margin-left: 700px;
+    }
+}
+
+.ammunition__list {
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .ammunition__item {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (min-width: $desktop) {
+        min-width: 380px;
+    }
 }
 
 .ammunition__item:not(:last-child) {  
-    margin-bottom:36px;
+    margin-bottom: 36px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+    }
 }
 
 .ammunition__image {
     display: block;
-    margin-bottom:12px;
+    margin-bottom: 12px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 24px;
+    }
 }
 
 .ammunition__name {
