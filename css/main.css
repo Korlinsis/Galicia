@@ -581,7 +581,7 @@ img {
   height: 806px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: center;
   background-image: url("../images/hero_mobile.jpg");
   background-repeat: no-repeat;
   background-position: center;
