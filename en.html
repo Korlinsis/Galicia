@@ -63,7 +63,7 @@
           <h1 class="hero__title">Fundraising for the needs of the Ukrainian soldiers</h1>
           <p class="hero__description">Our Defenders are strong and have indomitable spirit.  Today, the whole world admires their heroism.  However, they are in dire need of medicine and basic military equipment (bulletproof vests, helmets, etc.) to protect their Motherland.
           </p>
-          <button class="hero__button button">Donate</button>
+          <button onclick="location.href=button.getUrl()" class="hero__button button">Donate</button>
         </div>
       </section>
 
@@ -135,7 +135,7 @@
         <div class="container">
           <div class="details__header">
             <h2 class="details__title">Let's save the lives and health of the <span class="details__title--bold">soldiers</span> who protect us!</h2>
-            <button class="button">Donate</button>
+            <button onclick="location.href=button.getUrl()" class="button">Donate</button>
           </div>
 
           <ul class="details__list">
@@ -221,6 +221,14 @@
         </a>
       </div>
     </footer>
+
+    <script src="https://pay.fondy.eu/static_common/v1/checkout/ipsp.js"></script>
+    <script>
+      var button = $ipsp.get('button');
+      button.setMerchantId( 1501725);
+      button.setAmount('', 'USD');
+      button.setHost('pay.fondy.eu');
+    </script>
     
   </body>
 </html>
