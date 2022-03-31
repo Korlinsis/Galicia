@@ -358,6 +358,12 @@ img {
   width: 16px;
 }
 
+@media screen and (min-width: 1200px) {
+  .language__free-space {
+    display: none;
+  }
+}
+
 .language__icon {
   stroke: var(--accent);
   margin-right: 8px;
@@ -557,6 +563,12 @@ img {
 @media screen and (min-width: 1200px) {
   .section--hero {
     padding: 239px 0 140px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section--hero-english {
+    padding: 239px 0 116px;
   }
 }
 

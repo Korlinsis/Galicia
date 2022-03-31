@@ -32,6 +32,10 @@
 
 .language__free-space {
   width: 16px;
+
+  @media screen and (min-width: $desktop) {
+    display: none;
+  }
 }
 
 .language__icon {

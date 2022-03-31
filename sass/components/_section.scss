@@ -1,9 +1,15 @@
 .section {
-    &--hero {
+  &--hero {
     padding: 209px 0 168px;
     
     @media screen and (min-width: $desktop) {
       padding: 239px 0 140px;
+    }
+  }
+
+  &--hero-english {
+    @media screen and (min-width: $desktop) {
+      padding: 239px 0 116px;
     }
   }
 
