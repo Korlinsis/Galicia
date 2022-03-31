@@ -345,13 +345,17 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 @media screen and (min-width: 1200px) {
   .language {
     margin-left: 64px;
   }
+}
+
+.language__free-space {
+  width: 16px;
 }
 
 .language__icon {

@@ -23,11 +23,15 @@
 .language {
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 80px;
 
   @media screen and (min-width: $desktop) {
     margin-left: 64px;
   }
+}
+
+.language__free-space {
+  width: 16px;
 }
 
 .language__icon {
