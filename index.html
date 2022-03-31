@@ -64,7 +64,7 @@
           <h1 class="hero__title">Збір коштів для потреб українських військових</h1>
           <p class="hero__description">Наші Захисники є сильними та незламними духом. Їхнім героїзмом сьогодні захоплюється весь світ. Однак для захисту своєї Батьківщини їм вкрай бракує базового військового спорядження.
           </p>
-          <button class="hero__button button">Підтримати</button>
+          <button onclick="location.href=button.getUrl()" class="hero__button button">Підтримати</button>
         </div>
       </section>
 
@@ -222,6 +222,13 @@
         </a>
       </div>
     </footer>
-    
+
+    <script src="https://pay.fondy.eu/static_common/v1/checkout/ipsp.js"></script>
+    <script>
+      var button = $ipsp.get('button');
+      button.setMerchantId( 1501725);
+      button.setAmount('', 'UAH');
+      button.setHost('pay.fondy.eu');
+    </script>
   </body>
 </html>
