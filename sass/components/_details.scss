@@ -40,9 +40,9 @@
 
 .details__title {
     margin-bottom: 64px;
-    font-family: 'Avenir', sans-serif;
-    font-weight: 450;
-    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.33;
     color: var(--white);
 
@@ -68,6 +68,9 @@
 }
 
 .details__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 22px;
     background-color: var(--grey);
     border-radius: 20px;
@@ -90,9 +93,9 @@
 }
 
 .details__name {
-    font-family: 'Avenir', sans-serif;
-    font-weight: 450;
-    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
     line-height: 1.33;
     color: var(--black);
 
@@ -103,16 +106,37 @@
 
 .details__currency {
     margin-bottom: 24px;
-    font-family: 'Avenir', sans-serif;
-    font-weight: 750;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 24px;
     line-height: 1.33;
     color: var(--blue);
     text-transform: uppercase;
 }
 
+.details__link {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 24px;
+    padding: 10px 0;
+    background-color: var(--accent);
+    border-radius: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--black);
+    
+    &:focus,
+    &:hover {
+    background-color: #f3bb03;
+  }
+}
+
 .bank__details {
-    font-family: 'Verdana';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;

@@ -1,14 +1,14 @@
 .ammunition__title {
     position: relative;
     margin-bottom: 24px;
-    font-family: 'Avenir', sans-serif;
-    font-weight: 450;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
     line-height: 1.2;
     color: var(--black);
 
     &--bold{
-        font-weight: 750;
+        font-weight: 700;
     }
 
     @media screen and (min-width: $desktop) {
@@ -35,7 +35,7 @@
 
 .ammunition__description {
     margin-bottom: 64px;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.62;
@@ -87,8 +87,8 @@
 
 .ammunition__name {
     display: inline-block;
-    font-family: 'Avenir', sans-serif;
-    font-weight: 750;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
     color: var(--black);

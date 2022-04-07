@@ -73,11 +73,10 @@
 .language__item {
   display: block;
   position: relative;
-  // margin-right: 10px;
   padding: 5px 0;
   text-decoration: none;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
   color: var(--white);
@@ -126,8 +125,8 @@
 
 .address--header {
   display: none;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.38;
 

@@ -412,8 +412,8 @@ img {
   position: relative;
   padding: 5px 0;
   text-decoration: none;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
   color: var(--white);
@@ -464,8 +464,8 @@ img {
 
 .address--header {
   display: none;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.38;
 }
@@ -529,8 +529,8 @@ img {
 .logo__letters {
   display: block;
   margin-left: 8px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 10px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -661,9 +661,9 @@ img {
 
 .hero__title {
   margin-bottom: 16px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 1.12;
   letter-spacing: 0.03em;
   color: var(--white);
@@ -672,7 +672,7 @@ img {
 @media screen and (min-width: 1200px) {
   .hero__title {
     margin-bottom: 24px;
-    max-width: 680px;
+    max-width: 780px;
     font-size: 64px;
     line-height: 1.19;
     letter-spacing: 0.02em;
@@ -681,7 +681,7 @@ img {
 
 .hero__description {
   margin-bottom: 24px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -691,7 +691,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero__description {
-    max-width: 580px;
+    max-width: 680px;
   }
 }
 
@@ -720,8 +720,8 @@ img {
 .foundation__title {
   position: relative;
   margin-bottom: 36px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
   color: var(--black);
@@ -757,7 +757,7 @@ img {
 
 .foundation__description {
   margin-bottom: 24px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -777,7 +777,7 @@ img {
 }
 
 .foundation__link {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -851,9 +851,9 @@ img {
 
 .ukraine__title {
   margin-bottom: 24px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
-  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
   line-height: 1.17;
   color: var(--accent);
 }
@@ -867,7 +867,7 @@ img {
 }
 
 .ukraine__text {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -884,15 +884,15 @@ img {
 .ammunition__title {
   position: relative;
   margin-bottom: 24px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
-  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 1.2;
   color: var(--black);
 }
 
 .ammunition__title--bold {
-  font-weight: 750;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1200px) {
@@ -922,7 +922,7 @@ img {
 
 .ammunition__description {
   margin-bottom: 64px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -993,8 +993,8 @@ img {
 
 .ammunition__name {
   display: inline-block;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
   color: var(--black);
@@ -1042,9 +1042,9 @@ img {
 
 .details__title {
   margin-bottom: 64px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
-  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
   line-height: 1.33;
   color: var(--white);
 }
@@ -1075,6 +1075,16 @@ img {
 }
 
 .details__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 22px;
   background-color: var(--grey);
   border-radius: 20px;
@@ -1101,9 +1111,9 @@ img {
 }
 
 .details__name {
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
-  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
   line-height: 1.33;
   color: var(--black);
 }
@@ -1114,16 +1124,40 @@ img {
 
 .details__currency {
   margin-bottom: 24px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.33;
   color: var(--blue);
   text-transform: uppercase;
 }
 
+.details__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+  margin-top: 24px;
+  padding: 10px 0;
+  background-color: var(--accent);
+  border-radius: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.details__link:focus, .details__link:hover {
+  background-color: #f3bb03;
+}
+
 .bank__details {
-  font-family: 'Verdana';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -1148,8 +1182,8 @@ img {
   cursor: pointer;
   text-align: center;
   color: var(--black);
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1;
   -webkit-transition: background-color var(--animation-time) var(--animation-function);
@@ -1193,8 +1227,8 @@ img {
 }
 
 .address {
-  font-family: 'Avenir', sans-serif;
-  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.38;
 }

@@ -40,16 +40,16 @@
 
 .hero__title {
   margin-bottom: 16px;
-  font-family: 'Avenir', sans-serif;
-  font-weight: 750;
-  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 1.12;
   letter-spacing: 0.03em;
   color: var(--white);
 
   @media screen and (min-width: $desktop) {
     margin-bottom: 24px;
-    max-width: 680px;
+    max-width: 780px;
     font-size: 64px;
     line-height: 1.19;
     letter-spacing: 0.02em;
@@ -58,7 +58,7 @@
 
 .hero__description {
   margin-bottom: 24px;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -66,6 +66,6 @@
   color: var(--grey-text);
 
   @media screen and (min-width: $desktop) {
-    max-width: 580px;
+    max-width: 680px;
   }
 }
