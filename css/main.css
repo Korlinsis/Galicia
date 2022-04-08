@@ -371,7 +371,7 @@ img {
 @media screen and (min-width: 1200px) {
   .language__free-space-desktop {
     display: block;
-    width: 9px;
+    width: 4px;
   }
 }
 
